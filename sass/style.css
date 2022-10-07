@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Montserrat, sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body button:hover {
+  cursor: pointer;
+}
+
+nav.navbar div.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section.topbar {
+  color: white;
+  background-color: red;
+  height: 61px;
+}
+section.topbar i {
+  color: white;
+}
+
+section.topbar {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+section.topbar div.container div.row .topbar-contact li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-right: 1px solid rgba(255, 255, 255, 0.589);
+}
+section.topbar div.container div.row .topbar-time-share li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+section.topbar div.container div.row .topbar-time-share li.time {
+  border-right: 1px solid rgba(255, 255, 255, 0.589);
+}
+
+section.topbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+section.topbar div.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav img {
+  height: 50px;
+}
+
+#navbarSupportedContent ul > li {
+  margin-right: 50px;
+}
+
+div.carousel .carousel-inner .containerOne {
+  height: 80vh;
+  background-image: url(../img/background.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 6em 6em 6em 12em;
+}
+div.carousel .carousel-inner .containerOne h6 {
+  color: red;
+}
+div.carousel .carousel-inner .containerOne h1 {
+  color: black;
+  font-size: 4em;
+  font-weight: 800;
+  width: 10em;
+}
+div.carousel .carousel-inner .containerOne p {
+  font-weight: 400;
+  width: 30em;
+}
+div.carousel .carousel-inner .containerOne button {
+  background-color: red;
+  color: white;
+  padding: 1em 2em 1em 2em;
+  border-radius: 0px;
+}
+
+div.carousel .carousel-inner .containerTwo {
+  height: 80vh;
+  background-image: url(../img/slider2.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 6em 6em 6em 12em;
+}
+div.carousel .carousel-inner .containerTwo h6 {
+  color: red;
+}
+div.carousel .carousel-inner .containerTwo h1 {
+  color: black;
+  font-size: 4em;
+  font-weight: 800;
+  width: 10em;
+}
+div.carousel .carousel-inner .containerTwo p {
+  font-weight: 400;
+  width: 30em;
+}
+div.carousel .carousel-inner .containerTwo button {
+  background-color: red;
+  color: white;
+  padding: 1em 2em 1em 2em;
+  border-radius: 0px;
+}
+
+div.carousel > button span {
+  background-color: red;
+  padding: 2em 2em;
+}
+
+section.offers {
+  background-color: rgba(128, 128, 128, 0.192);
+}
+section.offers h6 {
+  color: red;
+}
+section.offers h3 {
+  font-weight: 900;
+  font-size: 2.2em;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,157 @@
+@import 'reset';
+
+nav.navbar div.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    // background-color: red;
+
+}
+
+section.topbar {
+    color: white;
+    background-color: red;
+    height: 61px;
+    i {
+        color: white;
+    }
+    
+}
+
+section.topbar {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    div.container {
+        div.row {
+                .topbar-contact {
+                    li {
+                    padding-top: 1em;
+                    padding-bottom: 1em;
+                    padding-left: 0.5em;
+                    padding-right: 0.5em;
+                    font-size: 1.1em;
+                    font-weight: 600;
+                    border-right: 1px solid rgba(255, 255, 255, 0.589);
+
+                    }
+                }
+                .topbar-time-share {
+                    li {
+                        padding-top: 1em;
+                        padding-bottom: 1em;
+                        padding-left: 0.5em;
+                        padding-right: 0.5em;
+                        font-size: 1.1em;
+                        font-weight: 600;
+                    }
+
+                    li.time {
+                        border-right: 1px solid rgba(255, 255, 255, 0.589);
+                    }
+                }
+        }
+    }
+}
+
+section.topbar a {
+    color: white;
+	text-decoration: none;
+    font-size: 0.8em;
+}
+
+section.topbar div.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    // background-color: green;
+}
+
+nav img {
+    height: 50px;
+}
+
+#navbarSupportedContent ul > li {
+    margin-right: 50px;
+}
+
+div.carousel .carousel-inner .containerOne {
+    height: 80vh;
+    background-image: url(../img/background.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 6em 6em 6em 12em;
+    h6 {
+        color: red;
+    }
+    h1 {
+        color: black;
+        font-size: 4em;
+        font-weight: 800;
+        width: 10em;
+    }
+    p {
+        font-weight: 400;
+        width: 30em;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        padding: 1em 2em 1em 2em;
+        border-radius: 0px;
+    }
+}
+
+div.carousel .carousel-inner .containerTwo {
+    height: 80vh;
+    background-image: url(../img/slider2.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 6em 6em 6em 12em;
+    h6 {
+        color: red;
+    }
+    h1 {
+        color: black;
+        font-size: 4em;
+        font-weight: 800;
+        width: 10em;
+    }
+    p {
+        font-weight: 400;
+        width: 30em;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        padding: 1em 2em 1em 2em;
+        border-radius: 0px;
+    }
+}
+
+div.carousel > button span {
+    background-color: red;
+    padding: 2em 2em;
+}
+
+section.offers {
+    background-color: rgba(128, 128, 128, 0.192);
+    h6 {
+        color: red;
+    }
+    h3 {
+        font-weight: 900;
+        font-size: 2.2em;
+    }
+}
+
+// header.navbar {
+//     background-color: red;
+// }
+
+// header.navbar ul {
+//     margin-right: 60px;
+//     li {
+//         padding-left:20px;
+//         padding-right:20px;
+//     }
+// }
